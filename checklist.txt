@@ -1,0 +1,3 @@
+Add sites to nss_config.json
+Enable premium in wss_config
+If you change structure update version number
