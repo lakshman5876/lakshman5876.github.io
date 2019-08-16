@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Signal Strength FAQs
 permalink: /nss_faqs/
 ---
