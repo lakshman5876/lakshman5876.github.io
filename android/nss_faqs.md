@@ -2,23 +2,36 @@
 title: Signal Strength FAQs
 permalink: /nss_faqs/
 ---
+
+#### Purchase Issues - Things to try
+* Use the same google account from which purchases have been made.
+* Try reinstalling app
+* Try restarting device
+* Check network connection is available.
+* From Android Settings -> Apps -> Play store -> Clear cache
+* Try on another device
+
+If the above steps are not giving result email me the order id of your purchase. It will be there in the email you must have received from Google.
+
+<hr/>
+
 #### Dual SIM Signal
-* Android can only read Signal Strength from the SIM selected for Voice Calls. So in SIM settings change to SIM1/SIM2 for voice calls for reading the signal in the app. Also Do Not keep Prefered SIM settings to "Ask" in Dual SIM phones else nothing will be reported.
+* Android SIM reporting is not correctly implemented in some devices. So in SIM settings change to SIM1/SIM2 for voice calls for reading the signal in the app. Also Do Not keep Prefered SIM settings to "Ask" in Dual SIM phones else nothing will be reported.
 
 #### Signal not updating
-* There is a known issue of signal refresh with some phones and not a limitation of the app. Some phones/ROMs particularly a few Samsung stock ROMs dont seem to be supporting cellular signal strength update. Feedback by email would be appreciated
+* There is a known issue of signal refresh with some phones and not a limitation of the app. A very few phones/ROMs dont seem to be supporting cellular signal strength update. Feedback by email would be appreciated
 
 #### Cell towers not visible
 * If your phone does not implement the Android standard correctly then the Cell tower info is not displayed
 
 #### LTE errors
-* LTE is being implemented in subtle variations by various OEMs and Carriers away from the Android reporting standard and hence some devices will not show the information correctly. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
+* LTE signal reporting is being implemented in subtle variations by various OEMs and Carriers away from the Android reporting standard and hence some devices will not show the information correctly. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
 
-#### Adfree Version
-* The app is completely free except for Adfree which can be unlocked through the Play Store. Try the free version first before you unlock.
-* If you want to reinstall the app only choose that account from which you bought the unlock option. Then you can reinstall and adfree will be available. This is really relevant when you have multiple accounts in your phone.
+<hr/>
 
-#### Tech Note - Signal
+#### Tech Notes :-
+
+#### Signal
 * The Cellular and WiFi signal varies in orders of 1000s (The full range is actually more than a million times) which is difficult to appreciate and hence the unit called dBm is used which presents the data in a nice logarithmic manner
 * WiFi -95dBm to -35dBm
 * GSM -113dBm to -51dBm
