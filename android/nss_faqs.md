@@ -11,10 +11,25 @@ permalink: /nss_faqs/
 * Check network connection is available.
 * From Android Settings -> Apps -> Play store -> Clear cache
 * Try on another device
+* Have you got the purchase confirmation email from google? 
 
 If the above steps are not giving result email me the order id of your purchase. It will be there in the email you must have received from Google.
 
 <hr/>
+
+#### General Widget issues
+* If app has been moved to sdcard with some utility please move it back to internal storage. Widgets will not work when app is installed in sdcard.
+* Try reinstalling app
+* Try restarting device
+* There may be some utilities like battery savers, memory optimizers, task killers etc which may be interfering with the app. Try after temporarily disabling them.
+* Try adjusting launcher grid. If possible keep it at default grid layout which mostly is 4x4
+* Try with a different launcher
+
+#### Android 10 Widget issues
+* In some devices after upgrade to Android 10 it has been reported that cellular signal and wifi information is no longer reported. 
+This may be because of new permissions called background location access included in Android.
+To address the issue open Android settings >> Apps >> Signal Strength >> Permissions.
+Enable background location access. This is a temporary measure and a fix will be deployed shortly
 
 #### Dual SIM Signal
 * Android SIM reporting is not correctly implemented in some devices. So in SIM settings change to SIM1/SIM2 for voice calls for reading the signal in the app. Also Do Not keep Prefered SIM settings to "Ask" in Dual SIM phones else nothing will be reported.
