@@ -16,8 +16,9 @@ permalink: /about/
 
 <p>4. Libraries <a href="https://github.com/bumptech/glide">bumptech/glide</a></p>
 
-<p>6. Background Images <a href="http://www.freepik.com">Designed by Freepik</a></p>
+<p>5. Background Images <a href="http://www.freepik.com">Designed by Freepik</a></p>
 
+<p>6. Libraries <a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></p>
 
 <!--
 ### My Blog
