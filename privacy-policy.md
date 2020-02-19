@@ -32,3 +32,5 @@ The android apps by the developer require various user sensitive permissions for
  3. Music Manager. This app needs to add, delete and copy files as part of its functioning and this implies Storage permission. Additionally the app can also show the audio waveform for which the record audio permission is required.
 
  4. GPS Navigation. This app needs to start and stop the GPS engine as part of its functioning and this implies requirement of Location permission.
+ 
+ 5. My Diabetic Health. This app may need permission to backup data to cloud drive

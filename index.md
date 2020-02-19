@@ -32,6 +32,11 @@ If you are living in a low signal area this app will be invaluable. You will qui
 
 <div style="clear: left;"/>
 
+### [My Diabetic Health](http://play.google.com/store/apps/details?id=com.cls.dhealth)
+<img  style="float: left; margin-right: 10px; margin-bottom: 10px;width: 80px" src="/assets/main/mdh.png" alt=""/>
+Log your diabetic health data and monitor health trends using user friendly charts
+<div style="clear: left;"/>
+
 ### [GPS Signal](http://play.google.com/store/apps/details?id=com.cls.gpswidget)
 <img  style="float: left; margin-right: 10px; margin-bottom: 10px;width: 80px" src="/assets/main/gs.png" alt=""/>
 Monitor GPS satellite status so that you can predict how long its likely to take for the first accurate position fix. Also basic Navigation data like Magnetic heading, Course, Speed, Altitude, Latitude and Longitude. [FAQs](./gsw_faqs/)
