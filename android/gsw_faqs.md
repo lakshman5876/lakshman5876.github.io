@@ -16,9 +16,6 @@ If the above steps are not giving result email me the order id of your purchase.
 
 <hr/>
 
-#### Why does it take so long for getting GPS satellites ?
-* For fast GPS updates you need to have open sky above. A minimum of 3 to 4 satellites is required for getting GPS fixes. Also the satellite data is cached in the device and if the GPS has not been used recently then this may be stale and will take some time to refresh
-
 #### Tech Notes:-
 
 #### What is almanac and ephemeris?

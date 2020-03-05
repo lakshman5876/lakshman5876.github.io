@@ -4,6 +4,14 @@ title: Signal Strength FAQs
 permalink: /nss_faqs/
 ---
 
+#### 5G
+* Will be coming soon
+
+#### New Android restrictions
+* All cellular and wifi scan functions need location permission in addition to enabling location from the status bar. 
+The app does not need location information however cellular/wifi scan info may possibly contain location info from the cell towers and Wifi routers. 
+Hence Android has mandated location permissions/location enabling for using these functions.
+
 #### Purchase Issues - Things to try
 * Use the same google account from which purchases have been made.
 * Try reinstalling app
@@ -15,8 +23,6 @@ permalink: /nss_faqs/
 
 If the above steps are not giving result email me the order id of your purchase. It will be there in the email you must have received from Google.
 
-<hr/>
-
 #### General Widget issues
 * If app has been moved to sdcard with some utility please move it back to internal storage. Widgets will not work when app is installed in sdcard.
 * Try reinstalling app
@@ -25,20 +31,11 @@ If the above steps are not giving result email me the order id of your purchase.
 * Try adjusting launcher grid. If possible keep it at default grid layout which mostly is 4x4
 * Try with a different launcher
 
-#### Android 10 Widget issues
-* In some devices after upgrade to Android 10 it has been reported that cellular signal and wifi information is no longer reported. 
-This may be because of new permissions called background location access included in Android.
-To address the issue open Android settings >> Apps >> Signal Strength >> Permissions.
-Enable background location access. This is a temporary measure and a fix will be deployed shortly
-
 #### Dual SIM Signal
 * Android SIM reporting is not correctly implemented in some devices. So in SIM settings change to SIM1/SIM2 for voice calls for reading the signal in the app. Also Do Not keep Prefered SIM settings to "Ask" in Dual SIM phones else nothing will be reported.
 
 #### Signal not updating
 * There is a known issue of signal refresh with some phones and not a limitation of the app. A very few phones/ROMs dont seem to be supporting cellular signal strength update. Feedback by email would be appreciated
-
-#### Cell towers not visible
-* If your phone does not implement the Android standard correctly then the Cell tower info is not displayed
 
 #### LTE errors
 * LTE signal reporting is being implemented in subtle variations by various OEMs and Carriers away from the Android reporting standard and hence some devices will not show the information correctly. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
