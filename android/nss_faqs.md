@@ -24,6 +24,7 @@ Hence Android has mandated location permissions/location enabling for using thes
 If the above steps are not giving result email me the order id of your purchase. It will be there in the email you must have received from Google.
 
 #### General Widget issues
+* Notifications for Widget update activity are show as per new Android policy. Disable these notifications by long pressing App icon -> Notifications -> Disable
 * If app has been moved to sdcard with some utility please move it back to internal storage. Widgets will not work when app is installed in sdcard.
 * Try reinstalling app
 * Try restarting device
