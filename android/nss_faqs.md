@@ -4,14 +4,6 @@ title: Signal Strength FAQs
 permalink: /nss_faqs/
 ---
 
-#### 5G
-* Will be coming soon
-
-#### New Android restrictions
-* All cellular and wifi scan functions need location permission in addition to enabling location from the status bar. 
-The app does not need location information however cellular/wifi scan info may possibly contain location info from the cell towers and Wifi routers. 
-Hence Android has mandated location permissions/location enabling for using these functions.
-
 #### Purchase Issues - Things to try
 * Use the same google account from which purchases have been made.
 * Try reinstalling app
@@ -24,7 +16,8 @@ Hence Android has mandated location permissions/location enabling for using thes
 If the above steps are not giving result email me the order id of your purchase. It will be there in the email you must have received from Google.
 
 #### General Widget issues
-* Notifications for Widget update activity are show as per new Android policy. Disable these notifications by long pressing App icon -> Notifications -> Disable
+* If there are any unresolved issue then a red flag will appear on main screen. Clicking this red flag will guide in resolving the issues.
+* Disable widget update notifications by long pressing App icon -> Notifications -> Disable
 * If app has been moved to sdcard with some utility please move it back to internal storage. Widgets will not work when app is installed in sdcard.
 * Try reinstalling app
 * Try restarting device
@@ -32,14 +25,16 @@ If the above steps are not giving result email me the order id of your purchase.
 * Try adjusting launcher grid. If possible keep it at default grid layout which mostly is 4x4
 * Try with a different launcher
 
-#### Dual SIM Signal
-* Android SIM reporting is not correctly implemented in some devices. So in SIM settings change to SIM1/SIM2 for voice calls for reading the signal in the app. Also Do Not keep Prefered SIM settings to "Ask" in Dual SIM phones else nothing will be reported.
+#### New Android restrictions
+* All cellular and wifi scan functions need location permission in addition to enabling location from the status bar. 
+The app does not need location information however cellular/wifi scan info may possibly contain location info from the cell towers and Wifi routers. 
+Hence Android has mandated location permissions/location enabling for using these functions.
 
-#### Signal not updating
-* There is a known issue of signal refresh with some phones and not a limitation of the app. A very few phones/ROMs dont seem to be supporting cellular signal strength update. Feedback by email would be appreciated
+#### Errors
+* Some devices do not fully support the Android reporting standard for dual SIM, LTE etc. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
 
-#### LTE errors
-* LTE signal reporting is being implemented in subtle variations by various OEMs and Carriers away from the Android reporting standard and hence some devices will not show the information correctly. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
+#### 5G
+* Will be coming soon
 
 <hr/>
 
