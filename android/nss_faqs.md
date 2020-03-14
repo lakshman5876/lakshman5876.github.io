@@ -15,18 +15,19 @@ permalink: /nss_faqs/
 
 If the above steps are not giving result email me the order id of your purchase. It will be there in the email you must have received from Google.
 
-#### General Widget issues
-* If there are any unresolved issue then a red flag will appear on main screen. Clicking this red flag will guide in resolving the issues.
-* Disable widget update notifications by long pressing App icon -> Notifications -> Disable
-* If app has been moved to sdcard with some utility please move it back to internal storage. Widgets will not work when app is installed in sdcard.
-* Try reinstalling app
-* Try restarting device
+#### Widget issues - Things to try
+* Widgets freezing - Start and exit app
+* Widgets freezing - Try restarting device
+* Check if a red flag is appearing on app main screen. Click this red flag and resolve the issues.
+* Widget update notifications - Disable by double clicking widget or long pressing App icon -> Notifications -> Disable
+* If app has been moved to sdcard please move it back to internal storage. Widgets will not work when app is installed in sdcard.
+* Reinstall app
 * There may be some utilities like battery savers, memory optimizers, task killers etc which may be interfering with the app. Try after temporarily disabling them.
 * Try adjusting launcher grid. If possible keep it at default grid layout which mostly is 4x4
 * Try with a different launcher
 
-#### New Android restrictions
-* All cellular and wifi scan functions need location permission in addition to enabling location from the status bar. 
+#### New Android permissions
+* All cellular and wifi scan functions need location permission. Location toggle is also to be enabled from the status bar. 
 The app does not need location information however cellular/wifi scan info may possibly contain location info from the cell towers and Wifi routers. 
 Hence Android has mandated location permissions/location enabling for using these functions.
 
