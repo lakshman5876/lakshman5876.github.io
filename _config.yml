@@ -32,8 +32,6 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - script/
   - drafts/
-  - checklist.txt
 #   - Gemfile
 #   - Gemfile.lock
