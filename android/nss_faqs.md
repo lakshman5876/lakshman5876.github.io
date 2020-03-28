@@ -30,6 +30,7 @@ If the above steps are not giving result email me the order id of your purchase.
 * Try setting both voice and data to same SIM in Android settings app.
 * Try the app after disabling dual sim processing in app main menu
 * Some devices do not fully support the Android reporting standard for dual SIM, LTE etc. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
+* Try beta option from app main menu
 
 #### New Android permissions
 * All cellular and wifi scan functions need location permission. 
