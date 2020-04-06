@@ -11,7 +11,7 @@ permalink: /nss_faqs/
 * Check network connection is available.
 * From Android Settings -> Apps -> Play store -> Clear cache
 * Try on another device
-* Have you got the purchase confirmation email from google?
+* Have you got the purchase confirmation email from google? This is the important step to confirm the purchase has been actually charged.
 If the above steps are not giving result email me the order id of your purchase. It will be there in the email you must have received from Google.
 
 #### Widget issues - Things to try
@@ -26,11 +26,11 @@ If the above steps are not giving result email me the order id of your purchase.
 * Try with a different launcher
 
 #### Dual SIM Errors - Things to try
+* Try beta option from app main menu. If this works well keep it on permanently for better performance.
 * In Android settings app DO NOT keep default SIM for Voice call to "Ask every time". Choose a default SIM.
 * Try setting both voice and data to same SIM in Android settings app.
-* Try the app after disabling dual sim processing in app main menu
 * Some devices do not fully support the Android reporting standard for dual SIM, LTE etc. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
-* Try beta option from app main menu
+* As a last resort try the app after disabling dual sim processing in app main menu
 
 #### New Android permissions
 * All cellular and wifi scan functions need location permission. 
@@ -39,7 +39,7 @@ If the above steps are not giving result email me the order id of your purchase.
 Hence Android has mandated location permissions/location enabling for using these functions.
 
 #### 5G
-* Will be coming soon
+* Has been added in the latest version. Its a new technology. Please contribute bug report from app menu.
 
 <hr/>
 
@@ -52,29 +52,31 @@ Hence Android has mandated location permissions/location enabling for using thes
 * CDMA -100dBm to -75dBm
 * EVDO -105dBm to -65dBm
 * LTE -140dBm to -44dBm
+* 5G -140dBm to -44dBm
 
 #### Tech Note - Networks
 * 2G - GPRS,EDGE,CDMA,IDEN
 * 3G - HSPA,HSUPA,HSDPA,EHRPD,1XRTT,EVDO,UMTS,HSPA+
 * 4G - LTE
-* LTE and EVDO are pure data channels. Your phone by default shows the signal strength of voice channels like cdma or gsm. Even if you are on a LTE/EVDO network the phone uses these GSM/CDMA channels for voice communication. If you are on a Voice over LTE operator then LTE carries both Voice and Data.
+* 5G - New generation radio
 
 #### Tech Note - Technologies
-* GSM - Global System for Mobile Communications
-* CDMA - Code Division Multiple Access
-* EDGE - Enhanced Data GSM Environment
-* HSPA - High Speed Packet Access
-* HSUPA - High Speed Uplink Packet Access
-* HSDPA - High Speed Downlink Packet Access
-* EHRPD - Evolved High Rate Packet Data
-* 1xRTT - CDMA Data Mode
-* EVDO - Evolution Data Optimized
-* UMTS - Universal Mobile Telecommunications System
-* HSPA+ - Evolved HSPA
-* LTE - Long Term Evolution
+* GSM - Global System for Mobile Communications. 2G GSM network
+* CDMA - Code Division Multiple Access. 2G CDMA network
+* EDGE - Enhanced Data GSM Environment. 2G GSM network
+* HSPA - High Speed Packet Access. 3G GSM network
+* HSUPA - High Speed Uplink Packet Access. 3G GSM network
+* HSDPA - High Speed Downlink Packet Access. 3G GSM network
+* EHRPD - Evolved High Rate Packet Data. 3G CDMA network
+* 1xRTT - CDMA Data Mode. 3G CDMA network
+* EVDO - Evolution Data Optimized. 3G CDMA network.
+* UMTS - Universal Mobile Telecommunications System. 3G GSM network
+* HSPA+ - Evolved HSPA. 3G GSM network
+* LTE - Long Term Evolution. 4G network
 * CDMA/EVDO Ec/Io - This is a measure of the quality of your CDMA/EVDO channel. This is more important than the corresponding CDMA/EVDO strength or RSSI channel
 * LTE RSRP - Reference Signal Received Power. This is the main measurement in LTE channels and indicates the average strength of the reference signal
 * LTE RSRQ - Reference Signal Received Quality. This indicates the quality of the LTE signal
+* IWLAN - Mobile offloading. The carrier is using your WiFi to offload cellular functions
 * Note - If you get good strength but poor quality then connection will also be poor. Conversely if you get poor strength but good quality then your connection is likely to still be good
 
 [back](/)
