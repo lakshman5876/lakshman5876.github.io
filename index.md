@@ -45,7 +45,7 @@ Monitor GPS satellite status so that you can predict how long its likely to take
 <hr>
 
 ## Play store link
-All my Apps available only on Google Play Store
+All my Apps are available only on Google Play Store
 
 <a href="http://play.google.com/store/apps/developer?id=Lakshman">
   <img src="/assets/main/google-play-badge.png" alt="Play store" style="width:250px;border:0;">
