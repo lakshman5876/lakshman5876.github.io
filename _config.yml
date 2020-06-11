@@ -33,5 +33,10 @@ plugins:
 # to override the default setting.
 exclude:
   - drafts/
+  - .gradle/
+  - .idea/
+  - build.gradle.kts
+  - checklist.txt
+  - local.properties
 #   - Gemfile
 #   - Gemfile.lock

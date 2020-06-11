@@ -1,0 +1,7 @@
+//bundle exec jekyll serve
+Commit#1
+//put local.properties into .gitignore and git rm --cached local.properties
+//mod config.ym for gradle, idea, checklist and local.properties
+//mod .gitignore for gradle, idea and local.properties
+//AS 4.1
+
