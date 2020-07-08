@@ -5,7 +5,7 @@ layout: default
 <img src="/assets/main/profile.jpg" alt="" style="float: left; width: 80px;height: 106px;margin-right: 10px;"/>
 Welcome to my **Android Apps site**. This site is a simple portal to my apps on the Google play store.
 
-Get some stats for Signal strength, Speed, Networks, Storage space and GPS satellites/Compass with an intutive UX. Plus a flexible queue based Music player app for those of you who want to have more control over their music
+Get some stats for Signal strength, Speed, Networks, Storage space and GPS satellites/Compass with an intutive UX. Also a flexible queue based Music player app for those of you who want to have more control over their music
 
 <i>Lakshman</i>
 <div style="clear: left;"/>
@@ -22,7 +22,7 @@ If you are living in a low signal area this app will be invaluable. You will qui
 
 ### [Storage Space](http://play.google.com/store/apps/details?id=com.cls.partition)
 <img  style="float: left; margin-right: 10px; margin-bottom: 10px;width: 80px" src="/assets/main/pt.png" alt=""/>
-Checkout your memory storage and clear some space. Find out about the memory storage of your phone. Are you getting the memory storage space promised by the manufacturer? [FAQs](./pt_faqs/)
+Checkout your memory storage and clear some space. Find out which apps and files are taking up storage space. How much of the memory storage space you paid for is actually available to you? [FAQs](./pt_faqs/)
 
 <div style="clear: left;"/>
 
@@ -34,12 +34,12 @@ The versatile queue based music player which you always wanted. If you want to b
 
 ### [My Diabetic Health](http://play.google.com/store/apps/details?id=com.cls.dhealth)
 <img  style="float: left; margin-right: 10px; margin-bottom: 10px;width: 80px" src="/assets/main/mdh.png" alt=""/>
-Log your diabetic health data and monitor health trends using user friendly charts
+A visual chart is worth a thousand words. Log diabetic health related data and monitor health trends using user friendly charts
 <div style="clear: left;"/>
 
-### [GPS Signal](http://play.google.com/store/apps/details?id=com.cls.gpswidget)
+### [GPS Speed and Compass](http://play.google.com/store/apps/details?id=com.cls.gpswidget)
 <img  style="float: left; margin-right: 10px; margin-bottom: 10px;width: 80px" src="/assets/main/gs.png" alt=""/>
-Monitor GPS satellite status so that you can predict how long its likely to take for the first accurate position fix. Also basic Navigation data like Magnetic heading, Course, Speed, Altitude, Latitude and Longitude. [FAQs](./gsw_faqs/)
+Basic Navigation data like Magnetic heading, Course, Speed, Altitude, Latitude and Longitude. Also monitor GPS satellite status so that you can predict how long its likely to take for the first accurate position fix [FAQs](./gsw_faqs/)
 <div style="clear: left;"/>
 
 <hr>
