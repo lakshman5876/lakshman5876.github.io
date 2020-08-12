@@ -5,7 +5,7 @@ layout: default
 <img src="/assets/main/profile.jpg" alt="" style="float: left; width: 80px;height: 106px;margin-right: 10px;"/>
 Welcome to my **Android Apps site**. This site is a simple portal to my apps on the Google play store.
 
-Get some stats for Signal strength, Speed, Networks, Storage space and GPS satellites/Compass with an intutive UX. Also a flexible queue based Music player app for those of you who want to have more control over their music
+Get some stats for Signal strength, Speed, Networks, Storage space and GPS[Speed/Compass/signal] with an intutive UX. Also a flexible queue based Music player app for those of you who want to have more control over their music
 
 <i>Lakshman</i>
 <div style="clear: left;"/>
@@ -28,7 +28,7 @@ Checkout your memory storage and clear some space. Find out which apps and files
 
 ### [Music Queue](http://play.google.com/store/apps/details?id=com.cls.musicplayer)
 <img  style="float: left; margin-right: 10px; margin-bottom: 10px;width: 80px" src="/assets/main/mm.png" alt=""/>
-The versatile queue based music player which you always wanted. If you want to better manage and play your music files then this is the app for you. [FAQs](./mm_faqs/)
+The versatile queue based music player which you always wanted. Play endless music with a music queue just the way you like it. Cloud backup of queue, favorites and playlists is included. [FAQs](./mm_faqs/)
 
 <div style="clear: left;"/>
 
