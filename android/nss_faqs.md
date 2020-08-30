@@ -4,6 +4,13 @@ title: Signal Strength FAQs
 permalink: /nss_faqs/
 ---
 
+#### Android permissions
+* **Phone permission**. It is essential for gathering phone and network state. Most of the app will not work without this permission.
+* **Location permission**. Cellular and wifi scan functions need this permission. Without this permission many parts of the app may not work correctly.
+* **Location enable**. For location permission to be useful location toggle is also to be enabled from the status bar.
+* The app does not need location information however cellular/wifi scan info may possibly contain location info from the cell towers and Wifi routers. 
+Hence Android requires location permissions/location enabling for using these functions.
+
 #### Purchase Issues - Things to try
 The most common issue few users face is when purchase is charged/completed but premium features are not unlocked.
 This is mainly because app depends upon play store app to refresh purchases which sometimes gets delayed. 
@@ -37,11 +44,6 @@ If the above steps are not giving result send me an email. I will check purchase
 * Some devices do not fully support the Android reporting standard for dual SIM, LTE etc. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
 * As a last resort try the app after disabling dual sim processing in app main menu
 
-#### New Android permissions
-* All cellular and wifi scan functions need location permission. 
-* Location toggle is also to be enabled from the status bar. 
-* The app does not need location information however cellular/wifi scan info may possibly contain location info from the cell towers and Wifi routers. 
-Hence Android has mandated location permissions/location enabling for using these functions.
 
 #### 5G
 * Has been added in the latest version. Its a new technology. Please contribute bug report from app menu.
@@ -56,8 +58,8 @@ Hence Android has mandated location permissions/location enabling for using thes
 * GSM -113dBm to -51dBm
 * CDMA -100dBm to -75dBm
 * EVDO -105dBm to -65dBm
-* LTE -140dBm to -44dBm
-* 5G -140dBm to -44dBm
+* LTE -140dBm to -43dBm
+* 5G -140dBm to -43dBm
 
 #### Tech Note - Networks
 * 2G - GPRS,EDGE,CDMA,IDEN
