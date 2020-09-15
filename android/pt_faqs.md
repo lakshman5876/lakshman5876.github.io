@@ -7,13 +7,13 @@ permalink: /pt_faqs/
 #### What does this App do exactly?
 * This App helps you to find and delete unecessary files and apps which are taking up space
 
-#### Purchase Issues - Things to try
+#### Purchase Issues
 The most common issue few users face is when purchase is charged/completed but premium features are not unlocked.
-This is mainly because app depends upon play store app to refresh purchases which sometimes gets delayed. 
+This is mainly because app depends upon play store app to refresh purchases which sometimes gets delayed.
+
+_Try these steps_
+
 * Force refresh play store app.  From Android Settings -> Apps -> Play store -> Clear cache
-
-_Also try these steps_
-
 * Use the same google account from which purchases have been made.
 * Try reinstalling app
 * Try restarting device

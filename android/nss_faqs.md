@@ -5,19 +5,21 @@ permalink: /nss_faqs/
 ---
 
 #### Android permissions
-* **Phone permission**. It is essential for gathering phone and network state. Most of the app will not work without this permission.
-* **Location permission**. Cellular and wifi scan functions need this permission. Without this permission many parts of the app may not work correctly.
+* **Phone permission**. It is essential for gathering phone and network state.
+Most of the app will not work without this permission.
+* **Location permission**. Cellular and wifi scan functions need this permission.
+Without this permission many parts of the app may not work correctly.
 * **Location enable**. For location permission to be useful location toggle is also to be enabled from the status bar.
 * The app does not need location information however cellular/wifi scan info may possibly contain location info from the cell towers and Wifi routers. 
 Hence Android requires location permissions/location enabling for using these functions.
 
-#### Purchase Issues - Things to try
+#### Purchase Issues
 The most common issue few users face is when purchase is charged/completed but premium features are not unlocked.
 This is mainly because app depends upon play store app to refresh purchases which sometimes gets delayed. 
+
+_Try these steps_
+
 * Force refresh play store app.  From Android Settings -> Apps -> Play store -> Clear cache
-
-_Also try these steps_
-
 * Use the same google account from which purchases have been made.
 * Try reinstalling app
 * Try restarting device
@@ -33,20 +35,22 @@ If the above steps are not giving result send me an email. I will check purchase
 * Widget update notifications - Disable by double clicking widget or long pressing App icon -> Notifications -> Disable
 * If app has been moved to sdcard please move it back to internal storage. Widgets will not work when app is installed in sdcard.
 * Reinstall app
-* There may be some utilities like battery savers, memory optimizers, task killers etc which may be interfering with the app. Try after temporarily disabling them.
+* There may be some utilities like battery savers, memory optimizers, task killers etc which may be interfering with the app.
+Try after temporarily disabling them.
 * Try adjusting launcher grid. If possible keep it at default grid layout which mostly is 4x4
 * Try with a different launcher
 
 #### Dual SIM Errors - Things to try
-* Try beta option from app main menu. If this works well keep it on permanently for better performance.
+* Try fallback option from app main menu.
 * In Android settings app DO NOT keep default SIM for Voice call to "Ask every time". Choose a default SIM.
 * Try setting both voice and data to same SIM in Android settings app.
-* Some devices do not fully support the Android reporting standard for dual SIM, LTE etc. Please contribute debug reports from App Navigation Menu • Support • Report Bugs so that all variations can be incorporated
-* As a last resort try the app after disabling dual sim processing in app main menu
+* Some devices do not fully support the Android reporting standard for dual SIM, LTE etc.
+Consider contributing debug report from app menu.
 
 
 #### 5G
-* Has been added in the latest version. Its a new technology. Please contribute bug report from app menu.
+* Try fallback option from app main menu.
+* Its new tech. Consider contributing debug report from app menu.
 
 <hr/>
 
@@ -65,7 +69,7 @@ If the above steps are not giving result send me an email. I will check purchase
 * 2G - GPRS,EDGE,CDMA,IDEN
 * 3G - HSPA,HSUPA,HSDPA,EHRPD,1XRTT,EVDO,UMTS,HSPA+
 * 4G - LTE
-* 5G - New generation radio
+* 5G - New generation radio NR
 
 #### Tech Note - Technologies
 * GSM - Global System for Mobile Communications. 2G GSM network
