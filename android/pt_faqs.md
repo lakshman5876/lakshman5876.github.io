@@ -5,7 +5,19 @@ permalink: /pt_faqs/
 ---
 
 #### What does this App do exactly?
-* This App helps you to find and delete unecessary files and apps which are taking up space
+This App helps you to find and delete unecessary files and apps which are taking up space.
+It attempts to put control in the hands of the user by helping to identify apps and files taking up space.
+It does not automatically delete apps or files
+
+#### Some Tips
+* An easy way to clear some space is by clearing app cache.
+But this is a temporary fix since the cache is restored quickly.
+A more lasting way is to uninstall apps or delete some files
+* Files - Generally look for unnecessary files to delete in Download, DCIM, Movies, Music or Pictures folders.
+Avoid deleting files from Android folder.
+It contains app related files which are automatically removed if app is uninstalled
+* Apps - System apps can not be uninstalled.
+But many of them can be disabled which prevents them from taking user space
 
 #### Purchase Issues
 The most common issue few users face is when purchase is charged/completed but premium features are not unlocked.
