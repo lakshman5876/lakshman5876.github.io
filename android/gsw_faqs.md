@@ -3,6 +3,7 @@ layout: default
 title: GPS Navigation FAQs
 permalink: /gsw_faqs/
 ---
+## FAQs and Issues
 
 #### Purchase Issues
 The most common issue few users face is when purchase is charged/completed but premium features are not unlocked.

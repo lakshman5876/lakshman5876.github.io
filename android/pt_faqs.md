@@ -3,6 +3,7 @@ layout: default
 title: Storage Space FAQs
 permalink: /pt_faqs/
 ---
+## FAQs and Issues
 
 #### What does this App do exactly?
 This App helps you to find and delete unecessary files and apps which are taking up space.

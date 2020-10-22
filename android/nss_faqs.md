@@ -3,6 +3,7 @@ layout: default
 title: Signal Strength FAQs
 permalink: /nss_faqs/
 ---
+## FAQs and Issues
 
 #### Android permissions
 * **Phone permission**. It is essential for gathering phone and network state.
@@ -41,7 +42,6 @@ Try after temporarily disabling them.
 * Try with a different launcher
 
 #### Dual SIM Errors - Things to try
-* Try fallback option from app main menu.
 * In Android settings app DO NOT keep default SIM for Voice call to "Ask every time". Choose a default SIM.
 * Try setting both voice and data to same SIM in Android settings app.
 * Some devices do not fully support the Android reporting standard for dual SIM, LTE etc.
@@ -49,7 +49,6 @@ Consider contributing debug report from app menu.
 
 
 #### 5G
-* Try fallback option from app main menu.
 * Its new tech. Consider contributing debug report from app menu.
 
 <hr/>
