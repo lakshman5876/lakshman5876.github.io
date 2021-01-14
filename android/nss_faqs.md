@@ -5,6 +5,10 @@ permalink: /nss_faqs/
 ---
 ## FAQs and Issues
 
+#### Android 11
+* **Location Permissions**. For widgets to work the location permission needs to be granted "while app is in use" and not "this time only".
+If you give "this time only" one time permission then the widgets will not update.
+
 #### Android permissions
 * **Phone permission**. It is essential for gathering phone and network state.
 Most of the app will not work without this permission.
