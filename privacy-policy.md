@@ -4,7 +4,7 @@ layout: default
 ## Privacy Policy for Apps
 by Lakshman(Developer)
 
-Last modified: Sep 19, 2020
+Last modified: Jan 23, 2021
 
 The developer attaches great importance to protecting your privacy. Before using these android apps, please read carefully the following statements.
 
@@ -25,16 +25,27 @@ The developer attaches great importance to protecting your privacy. Before using
 ### App Permissions.
 The android apps by the developer require various user sensitive permissions for their functioning as detailed below:-
 
- 1. Signal Strength. This app needs to access state of SIM cards, network and phone for its operation which implies requirement of Phone permissions.
- This app also needs to perform Cellular and WiFi scan which automatically implies requirement of Location permissions.
- Additionally for location permission to be useful location also needs to be enabled.
+### 1. Signal Strength
+This app needs to access state of SIM cards, network and phone for its operation which implies requirement of Phone permissions.
+This app also needs to perform Cellular and WiFi scan which automatically implies requirement of Location permissions.
+Additionally for location permission to be useful location also needs to be enabled.
 
- 2. Storage Space. This app needs to add, delete and copy files as part of its functioning and this implies Storage permission.
+#### Background location access
 
- 3. Music Queue. This app needs to access audio media as part of its functioning and this implies Storage permission.
+ Displaying the Cellular and Wifi Signal strength details involves accessing cellular/wifi functions which are protected by Location permission.
+ Signal Widgets, notifications, log and alerts are a core feature of this app which need to work in the background and respond while the app is not in use.
+ For correct operation in addition to location permission they also need background location permission. The app uses the sensitive permissions only for the purpose of displaying the signal information.
+
+### 2. Storage Space
+This app needs to add, delete and copy files as part of its functioning and this implies Storage permission.
+
+### 3. Music Queue
+This app needs to access audio media as part of its functioning and this implies Storage permission.
  Additionally the app can also show the audio waveform for which the record audio permission is required.
  It may also need permission to backup data to cloud drive
 
- 4. GPS Navigation. This app needs to start and stop the GPS engine as part of its functioning and this implies requirement of Location permission.
+### 4. GPS Navigation
+This app needs to start and stop the GPS engine as part of its functioning and this implies requirement of Location permission.
  
- 5. My Diabetic Health. This app may need permission to backup data to cloud drive
+### 5. My Diabetic Health
+This app may need permission to backup data to cloud drive
