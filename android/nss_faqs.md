@@ -5,15 +5,14 @@ permalink: /nss_faqs/
 ---
 ## FAQs and Issues
 
-#### Android 11
-* **Location Permissions**. For widgets to work the location permission needs to be granted "while app is in use" and not "this time only".
-If you give "this time only" one time permission then the widgets will not update.
-
 #### Android permissions
-* **Phone permission**. It is essential for gathering phone and network state.
-Most of the app will not work without this permission.
 * **Location permission**. Cellular and wifi scan functions need this permission.
 Without this permission many parts of the app may not work correctly.
+* **Android 10 and 11 Location Permissions**. Widgets, statusbar notifications, log and alerts work in the background while the app
+is not in use. So the location permission needs to be granted "Allow all the time".
+These features will not work correctly if you give "while using the app" or "this time only" permission.
+* **Phone permission**. It is essential for gathering phone and network state.
+Most of the app will not work without this permission.
 * **Location enable**. For location permission to be useful location toggle is also to be enabled from the status bar.
 * The app does not need location information however cellular/wifi scan info may possibly contain location info from the cell towers and Wifi routers. 
 Hence Android requires location permissions/location enabling for using these functions.
