@@ -36,7 +36,6 @@ If the above steps are not giving result send me an email. I will check purchase
 * Widgets freezing - Start and exit app
 * Widgets freezing - Try restarting device
 * Check if a red flag is appearing on app main screen. Click this red flag and resolve the issues.
-* Widget update notifications - Disable by double clicking widget or long pressing App icon -> Notifications -> Disable
 * If app has been moved to sdcard please move it back to internal storage. Widgets will not work when app is installed in sdcard.
 * Reinstall app
 * There may be some utilities like battery savers, memory optimizers, task killers etc which may be interfering with the app.
@@ -49,10 +48,6 @@ Try after temporarily disabling them.
 * Try setting both voice and data to same SIM in Android settings app.
 * Some devices do not fully support the Android reporting standard for dual SIM, LTE etc.
 Consider contributing debug report from app menu.
-
-
-#### 5G
-* Its new tech. Consider contributing debug report from app menu.
 
 <hr/>
 
