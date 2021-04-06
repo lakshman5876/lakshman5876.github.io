@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<br/>Lakshman is an independent developer from Hyderabad , India. His interests include Android development, Electronics and Linux<br/>
+<br/>Lakshman is an independent developer from Hyderabad, India. His interests include Android development, Electronics and Linux<br/>
 
 <hr>
 ### Credits
@@ -15,13 +15,9 @@ permalink: /about/
 
 <p>3. Libraries <a href="https://commons.apache.org/proper/commons-io/"> Commons IO</a></p>
 
-<p>4. Libraries <a href="https://github.com/greenrobot/EventBus">greenrobot/EventBus</a></p>
+<p>4. Libraries <a href="https://github.com/bumptech/glide">bumptech/glide</a></p>
 
-<p>5. Libraries <a href="https://github.com/bumptech/glide">bumptech/glide</a></p>
-
-<p>6. Background Images <a href="http://www.freepik.com">Designed by Freepik</a></p>
-
-<p>7. Libraries <a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></p>
+<p>5. Libraries <a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></p>
 
 <!--
 ### My Blog

@@ -43,6 +43,11 @@ Try after temporarily disabling them.
 * Try adjusting launcher grid. If possible keep it at default grid layout which mostly is 4x4
 * Try with a different launcher
 
+#### Widget update rate
+Updating widgets too frequently is not recommended. Frequent updating doesnt allow device to sleep and this
+leads to battery drain. Also querying the telephony subsystem is resource intensive and may lead to system instability.
+So it is recommended to keep widget update rate at either manual mode or at 15 min interval.
+
 #### Dual SIM Errors - Things to try
 * In Android settings app DO NOT keep default SIM for Voice call to "Ask every time". Choose a default SIM.
 * Try setting both voice and data to same SIM in Android settings app.

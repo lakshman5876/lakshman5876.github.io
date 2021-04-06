@@ -5,7 +5,7 @@ layout: default
 <img src="/assets/main/profile.jpg" alt="" style="float: left; width: 80px;height: 106px;margin-right: 10px;"/>
 Welcome to my **Android Apps site**. This site is a simple portal to my apps on the Google play store.
 
-Get some stats for Signal strength, Speed, Networks, Storage space and GPS[Speed/Compass/signal] with an intutive UX. Also a flexible queue based Music player app for those of you who want to have more control over their music
+Get some stats for Signal strength, Speed, Networks, Storage space, Compass and GPS Accuracy with an intutive UX. Also a flexible queue based Music player app for those of you who want to have more control over their music
 
 <i>Lakshman</i>
 <div style="clear: left;"/>
@@ -37,7 +37,7 @@ The versatile queue based music player which you always wanted. Play endless mus
 A visual chart is worth a thousand words. Log diabetic health related data and monitor health trends using user friendly charts
 <div style="clear: left;"/>
 
-### [GPS Speed and Compass](http://play.google.com/store/apps/details?id=com.cls.gpswidget)
+### [Compass, Speed and GPS Accuracy](http://play.google.com/store/apps/details?id=com.cls.gpswidget)
 <img  style="float: left; margin-right: 10px; margin-bottom: 10px;width: 80px" src="/assets/main/gs.png" alt=""/>
 Basic Navigation data like Magnetic heading, Course, Speed, Altitude, Latitude and Longitude. Also monitor GPS satellite status so that you can predict how long its likely to take for the first accurate position fix [FAQs](./gsw_faqs/)
 <div style="clear: left;"/>
