@@ -4,7 +4,7 @@ layout: default
 ## Privacy Policy for Apps
 by Lakshman(Developer)
 
-Last modified: Jan 23, 2021
+Last modified: June 12, 2021
 
 The developer attaches great importance to protecting your privacy. Before using these android apps, please read carefully the following statements.
 
@@ -30,14 +30,14 @@ This app needs to access state of SIM cards, network and phone for its operation
 This app also needs to perform Cellular and WiFi scan which automatically implies requirement of Location permissions.
 Additionally for location permission to be useful location also needs to be enabled.
 
-#### Background location access
-
- Displaying the Cellular and Wifi Signal strength details involves accessing cellular/wifi functions which are protected by Location permission.
- Signal Widgets, notifications, log and alerts are a core feature of this app which need to work in the background and respond while the app is not in use.
- For correct operation in addition to location permission they also need background location permission. The app uses the sensitive permissions only for the purpose of displaying the signal information.
+<p><b>Background location access</b>. Displaying the Cellular and Wifi Signal strength details involves accessing cellular/wifi functions which are protected by Location permission.
+Signal Widgets, notifications, log and alerts are a core feature of this app which need to work in the background and respond while the app is not in use.
+For correct operation in addition to location permission they also need background location permission.
+The app uses the sensitive permissions only for the purpose of displaying the signal information.</p>
 
 ### 2. Storage Space
-This app needs to add, delete and copy files as part of its functioning and this implies Storage permission.
+<p><b>Storage/All files permission</b>. This permission is required to find and delete unnecessary files in the device which may be taking up storage space.</p>
+<p><b>Query installed apps permission</b>. This permission is only required to get list of installed apps and then select and uninstall unnecessary apps.</p>
 
 ### 3. Music Queue
 This app needs to access audio media as part of its functioning and this implies Storage permission.
