@@ -1,0 +1,10 @@
+/.bundle
+/.gradle
+/.idea
+/.sass-cache
+.jekyll-metadata
+/_site
+/script
+/drafts
+local.properties
+checklist.txt
