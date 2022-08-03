@@ -5,6 +5,17 @@ permalink: /nss_faqs/
 ---
 ## FAQs and Issues
 
+#### 5G Issues
+5G is mostly rolling out in an incremental (NSA - Non stand alone) approach utilizing the existing 4G networks. 
+In this hybrid approach the devices have dual connectivity to both 4G and 5G networks.
+4G is primary and 5G is secondary network. 
+When secondary is in range device is connected to both 4G and 5G simultaneously.
+However since this is rolling out stage number of 5G cells will be limited.
+So 5G connectivity may not be there all the time even though your network is NSA.
+This app will report 5G only if 5G cells are in range.
+This will most probably be at variance with device status bar which will report 5G if NSA is detected.
+Please help to improve app by giving feedback on this issue.
+
 #### Purchase Issues
 The most common issue few users face is when purchase is charged/completed but premium features are not unlocked.
 This is mainly because app depends upon play store app to refresh purchases which sometimes gets delayed.
@@ -12,6 +23,7 @@ This can also happen after a device change or android update
 
 _Try these steps_
 
+* Check the purchases link on app main menu.
 * If you can try and wait 24 to 48 hours for play store purchases refresh
 * Click recents button and close all apps. Then open play store app once.
 * Force stop play store app. Then open play store app once.
@@ -21,7 +33,6 @@ _Try these steps_
 * Try restarting device. Then open play store app once.
 * Check network connection is available. 
 * Try on another device
-* Have you got the purchase confirmation email from google? This is the important step to confirm the purchase has been actually charged.
 If the above steps are not giving result send me an email. I will check purchase status using your email id.
 
 #### Widget issues - Things to try
@@ -48,7 +59,7 @@ Most of the app will not work without this permission.
 Hence Android requires location permissions/location enabling for using these functions.
 
 #### Widget update rate
-Updating widgets too frequently is not recommended. Frequent updating doesnt allow device to sleep and this
+Updating widgets too frequently is not recommended. Frequent updating doesn't allow device to sleep and this
 leads to battery drain. Also querying the telephony subsystem is resource intensive and may lead to system instability.
 So it is recommended to keep widget update rate at either manual mode or at 15 min interval.
 
@@ -94,6 +105,11 @@ Consider contributing debug report from app menu.
 * LTE RSRP - Reference Signal Received Power. This is the main measurement in LTE channels and indicates the average strength of the reference signal
 * LTE RSRQ - Reference Signal Received Quality. This indicates the quality of the LTE signal
 * IWLAN - Mobile offloading. The carrier is using your WiFi to offload cellular functions
+* LTE CA - LTE carrier aggregation
+* LTE Pro - LTE advanced networks utilizing many concepts of 5G networks
+* NR - 5G network. New Radio.
+* NR NSA - NR Non stand alone. Hybrid of 4G and 5G network
+* NR Advanced - NR with high speed milli metric wave networks
 * Note - If you get good strength but poor quality then connection will also be poor. Conversely if you get poor strength but good quality then your connection is likely to still be good
 
 [back](/)
