@@ -21,7 +21,6 @@ Anonymous crash reports are collected and transmitted to Google Firebase Crashly
  This service is only implemented to bring bug fixes to the app, and it won’t include any of your personal information.
  When you are using this service, the information is directly sent to the service providers securely.
  Since the data is anonymous and there is no link with user, no facility for deletion of this data is available.
- User consent will be sought prior to collecting this data.
  Please check privacy policy of this service provider to learn more.
 
 ### 3. Analytics
@@ -30,7 +29,6 @@ transmitted securely to Google Firebase Analytics.
  This service is only implemented to help us improve the app performance, and it won’t include any of your personal information.
  When you are using this service, the information is directly sent to the service providers securely.
  Since the data is anonymous and there is no link with user, no facility for deletion of this data is available.
- User consent will be sought prior to collecting this data.
  Please check privacy policy of this service provider to learn more.
 
 ### 4. App Permissions.
