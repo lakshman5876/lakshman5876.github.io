@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /gps-privacy-policy/
 ---
 ## Privacy Policy
 ### Compass and GPS Tools

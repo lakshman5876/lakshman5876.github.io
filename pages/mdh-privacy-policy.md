@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /mdh-privacy-policy/
 ---
 ## Privacy Policy
 ### My Diabetic Health

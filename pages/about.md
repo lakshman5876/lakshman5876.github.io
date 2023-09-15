@@ -11,8 +11,6 @@ permalink: /about/
 
 <p>Image loading Libraries <a href="https://coil-kt.github.io/coil/">Coil</a></p>
 
-<p>Charting <a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></p>
-
 <!--
 ### My Blog
 <img  style="float: left; width: 32px; height: 32px; margin-right: 10px" src="/assets/about/blog.png" alt=""/>
@@ -22,7 +20,7 @@ permalink: /about/
 
 <hr>
 <div style="clear: left;"/>
-<img  style="float: left; margin-right: 10px; width: 32px; height: 32px" src="/assets/about/email.png" alt=""/>
+<img  style="float: left; margin-right: 10px; width: 32px; height: 32px" src="/assets/email.png" alt=""/>
 [Email](mailto:lakshman5876@gmail.com)
 <div style="clear: left;"/>
 

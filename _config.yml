@@ -18,7 +18,6 @@ email: lakshman5876@gmail.com
 description: Developing for Android # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lakshman5876.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lakshman5876
 github_username:  lakshman5876
 
 # Build settings

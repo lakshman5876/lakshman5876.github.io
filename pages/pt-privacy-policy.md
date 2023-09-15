@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /pt-privacy-policy/
 ---
 ## Privacy Policy
 ### Storage Space

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /privacy-policy/
 ---
 ## Privacy Policy
 ### Signal Strength

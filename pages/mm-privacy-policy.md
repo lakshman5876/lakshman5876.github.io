@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /mm-privacy-policy/
 ---
 ## Privacy Policy
 ### Music Queue
