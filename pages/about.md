@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<br/>Lakshman is an independent developer from Hyderabad, India. His interests include Android development, Electronics and Linux<br/>
-
-<hr>
 ### Credits
 
 <p>Image loading Libraries <a href="https://coil-kt.github.io/coil/">Coil</a></p>

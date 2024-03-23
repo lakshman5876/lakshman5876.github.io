@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<img src="/assets/profile.jpg" alt="" style="float: left; width: 80px;height: 106px;margin-right: 10px;"/>
-Welcome to my **Android Apps site**. This site is a simple portal to my apps on the Google play store.
-
-Get some stats for Signal strength, Speed, Networks, Storage space, Compass and GPS Accuracy with an intutive UX. Also a flexible queue based Music player app for those of you who want to have more control over their music
+<img src="/assets/thinksparks_profile.png" alt="" style="float: left; width: 106px;height: 106px;margin-right: 10px;"/>
+Welcome to my **Android Apps site**. This site is just a simple portal to my apps on the Google play store.
+Apps provide stats for Signal strength, Speed, Networks, Storage space, Compass and GPS Accuracy with an intuitive UX. Additionally a queue based Music player for playing device installed music is also included
 
 <i>Lakshman</i>
 
