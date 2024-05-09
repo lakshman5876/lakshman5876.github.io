@@ -1,0 +1,71 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+.custom-header {
+    background-color: #157878; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px 0; /* Add padding to the top and bottom of the header */
+}
+
+/* Center the content within the header */
+.container {
+    max-width: 1200px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 20px; /* Add some padding to the sides */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the content */
+    align-items: center; /* Center the content vertically */
+}
+
+/* Style the site title */
+.site-title {
+    font-size: 24px;
+}
+
+/* Style the navigation */
+.site-nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+}
+
+.site-nav ul li {
+    display: inline-block; /* Display the list items horizontally */
+    margin-right: 20px; /* Add space between the list items */
+}
+
+.site-nav ul li a {
+    color: #fff; /* Text color for the navigation links */
+    text-decoration: none; /* Remove underline from the links */
+    font-size: 16px; /* Font size for the links */
+}
+
+.site-nav ul li a:hover {
+    text-decoration: underline; /* Underline the links on hover */
+}
+
+/* Style the main content */
+.main-content {
+    padding: 50px 20px; /* Add padding to the top and bottom of the main content */
+    background-color: #ffffff; /* Background color for the main content */
+}
+
+.main-content .container {
+    padding: 20px; /* Add padding inside the main content container */
+}
+
+body { padding: 0; margin: 0; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; }
+
+.main-content h2 {
+    font-size: 36px; /* Font size for main headings */
+    margin-bottom: 20px; /* Add space below the headings */
+}
+
+.main-content p {
+    font-size: 18px; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 20px; /* Add space below paragraphs */
+}

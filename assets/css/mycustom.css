@@ -1,0 +1,23 @@
+/* Reset some default browser styles */
+
+/* Style the main content */
+.custom-content {
+    padding: 50px 20px; /* Add padding to the top and bottom of the main content */
+    background-color: #ffffff; /* Background color for the main content */
+}
+
+.custom-content .container {
+    padding: 20px; /* Add padding inside the main content container */
+}
+
+
+.custom-content h2 {
+    font-size: 36px; /* Font size for main headings */
+    margin-bottom: 20px; /* Add space below the headings */
+}
+
+.custom-content p {
+    font-size: 18px; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 20px; /* Add space below paragraphs */
+}
