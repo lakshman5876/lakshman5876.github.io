@@ -1,0 +1,242 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FAQs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/mycustom.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+<section id="top" class="page-header">
+    <img style="width: 80px" src="../assets/ss.png" alt="" />
+    <h2>Signal Strength FAQs</h2>
+    <a href="../index.html" class="btn">Home</a>
+</section>
+
+<section class="main-content">
+
+    <nav>
+        <ul>
+            <li><a href="#what-can-do">What can the app do?</a></li>
+            <li><a href="#wifi-issues">WiFi issues</a></li>
+            <li><a href="#cellular-issues">Cellular issues</a></li>
+            <li><a href="#purchase-issues">Purchase issues</a></li>
+            <li><a href="#widget-issues">Widget issues</a></li>
+            <li><a href="#android-permissions">Android permissions</a></li>
+            <li><a href="#update-rate">Widget update rate</a></li>
+            <li><a href="#dual-sim">Dual SIM related</a></li>
+            <li><a href="#tech-notes">Tech notes</a></li>
+        </ul>
+    </nav>
+
+    <h3 id="what-can-do">What can the App do?<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <ul>
+        <li>Locate areas with good signal strength and data speed at your home/office using high resolution meters</li>
+        <li>Check network speeds - Data[3G,4G or 5G] and Wifi[2.4, 5 or 6GHz]</li>
+        <li>Check the latency or delay in network</li>
+        <li>Download speeds, cell towers, wifi channel interference and much more</li>
+        <li>Apps <span style="color: red;">cannot</span> boost your signal strength. It totally depends on :
+            <ul>
+                <li>Obstructions from walls, buildings etc</li>
+                <li>Distance from cell tower or router</li>
+                <li>Phone hardware quality</li>
+                <li>Operator/router transmission power</li>
+            </ul>
+        <li>So if you have low signal, it may still be possible that certain areas of your home may have usable signal.
+            This app attempts to locate those areas
+        </li>
+        <li>If you are still unable to find a good signal, then you may need to either change your operator/router
+            or else check if you have better signal with a different phone
+        </li>
+        <li>Another option is external hardware like cellular signal boosters, wifi mesh, wifi repeaters etc</li>
+    </ul>
+
+
+    <!-- Wifi Issues -->
+    <h3 id="wifi-issues">WiFi - Low Signal and Speed<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <ul>
+        <li>
+            <h4>Router placement</h4>
+            <img style="width: 200px;" src="../assets/assistant/router.jpg" alt="Router placement">
+            <p>First use the Signal screen to check your Wifi Signal.
+                Thereafter you can try and change the orientation of the router antenna and see if the signal improves.
+                You can also try and increase the height of router.
+                If its possible, relocate your router to provide optimum coverage all around your spaces,
+                but this may not always be possible because your ISP cabling could be fixed</p>
+        </li>
+        <li>
+            <h4>Transmission power</h4>
+            <img style="width: 500px;" src="../assets/assistant/power.jpg" alt="Transmission power">
+            <p>Adjust transmission power of router.
+                For this you will need to login to your router and check if such an option is available.
+                Most probably you will need to go through the router documents for achieving this</p>
+        </li>
+        <li>
+            <h4>Wifi Channel band - 5GHz and 2.4GHz</h4>
+            <img style="width: 200px;" src="../assets/assistant/channels.jpg" alt="Signal band">
+            <p>5GHz bands are very fast but signal drops rapidly with distance.
+                2.5GHz bands are not as fast but perform better with distance and walls.
+                This setting requires logging on to the router.
+                Experiment with the channels and see if it has an improvement.</p>
+        </li>
+        <li>
+            <h4>Other Options</h4>
+            <img style="width: 300px;" src="../assets/assistant/mesh.jpg" alt="Signal band">
+            <p>If none of the above solve your issue you may need to explore options like Wifi repeaters,
+                additional Wifi access points or Wifi mesh.
+                Wifi mesh would be the costlier option but it would give you a single unified network with seamless handover between nodes.</p>
+        </li>
+    </ul>
+
+
+    <!-- Cellular Issues -->
+    <h3 id="cellular-issues">Cellular 5G Issues<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <p>5G is mostly rolling out in an incremental (NSA - Non stand alone) approach utilizing the existing 4G networks.
+        In this hybrid approach the devices have dual connectivity to both 4G and 5G networks.
+        4G is primary and 5G is secondary network.
+        When secondary is in range device is connected to both 4G and 5G simultaneously.
+        However since this is rolling out stage number of 5G cells will be limited.
+        So 5G connectivity may not be there all the time even though your network is NSA.
+        This app may report 5G connectivity with network as LTE NSA.
+        LTE NSA means 5G cells are not in range or not connected.
+        The device may also be prefering 4G/LTE when Wifi is on.
+        These readings may be at variance with device status bar which may have OEM specific readings.
+        Please help to improve app by giving feedback on this issue.</p>
+
+    <h3 id="purchase-issues">Purchase Issues<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <p>
+        The most common issue few users face is when purchase is charged/completed but premium features are not unlocked.
+        This is mainly because app depends upon play store app to refresh purchases which sometimes gets delayed.
+        This can also happen after a device change or android update</p>
+    <b>Try these steps</b>
+    <ul>
+        <li>If you can try and wait 24 to 48 hours for play store purchases refresh</li>
+        <li>Click recents button and close all apps. Then open play store app once.</li>
+        <li>Force stop play store app. Then open play store app once.</li>
+        <li>Force refresh play store app. From Android Settings -> Apps -> Play store -> Clear cache. Then open play store app once.</li>
+        <li>Use the same google account from which purchases have been made.</li>
+        <li>Try reinstalling app. Then open play store app once.</li>
+        <li>Try restarting device. Then open play store app once.</li>
+        <li>Check network connection is available.</li>
+        <li>Try on another device</li>
+        <li>Have you got the purchase confirmation email from google? This is the important step to confirm the purchase has been actually charged.</li>
+        <li>If the above steps are not giving result send me an email. I will check purchase status using your email id.</li>
+    </ul>
+
+    <h3 id="widget-issues">Widget issues - Things to try<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <ul>
+        <li>Widgets freezing - Start and exit app</li>
+        <li>Widgets freezing - Try restarting device</li>
+        <li>Check if a red flag is appearing on app main screen. Click this red flag and resolve the issues.</li>
+        <li>If app has been moved to sdcard please move it back to internal storage. Widgets will not work when app is installed in sdcard.</li>
+        <li>Reinstall app</li>
+        <li>There may be some utilities like battery savers, memory optimizers, task killers etc
+            which may be interfering with the app. Try after temporarily disabling them.
+        </li>
+        <li>Try adjusting launcher grid. If possible keep it at default grid layout which mostly is 4x4</li>
+        <li>Try with a different launcher</li>
+    </ul>
+
+    <h3 id="android-permissions">Android permissions<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <p><b>Location permission.</b> Cellular and wifi scan functions need this permission.
+        Without this permission many parts of the app may not work correctly.</p>
+    <p><b>Android 10 and 11 Location Permissions.</b> Widgets, statusbar notifications,
+        log and alerts work in the background while the app is not in use.
+        So the location permission needs to be granted "Allow all the time".
+        These features will not work correctly if you give "while using the app" or "this time only" permission.</p>
+    <p><b>Phone permission.</b> It is essential for gathering phone and network state.
+        Most of the app will not work without this permission.</p>
+    <p><b>Location enable.</b> For location permission to be useful location toggle is also to be enabled from the status bar.</p>
+    <p><b>[ * ]</b>
+        The app does not need location information however cellular/wifi scan info may possibly
+        contain location info from the cell towers and Wifi routers.
+        Hence Android requires location permissions/location enabling for using these functions.</p>
+
+    <h3 id="update-rate">Widget update rate<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <p>Updating widgets too frequently is not recommended.
+        Frequent updating doesn't allow device to sleep and this leads to battery drain.
+        Also querying the telephony subsystem is resource intensive and may lead to system instability.
+        So it is recommended to keep widget update rate at either manual mode or at 15 min interval.</p>
+
+    <h3 id="dual-sim">Dual SIM Errors - Things to try<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <ul>
+        <li>In Android settings app DO NOT keep default SIM for Voice call to "Ask every time". Choose a default SIM.</li>
+        <li>Try setting both voice and data to same SIM in Android settings app.</li>
+        <li>Some devices do not fully support the Android reporting standard for dual SIM, LTE etc.</li>
+        <li>Consider contributing debug report from app menu.</li>
+    </ul>
+
+    <hr/>
+    <h2 id="tech-notes">Tech Notes<a href="#top" style="margin-left: 10px; font-size: 0.6em;">[top]</a>
+    </h2>
+
+    <h3>Signal</h3>
+    <ul>
+
+        <li>The Cellular and WiFi signal varies in orders of 1000s (The full range is actually more
+            than a million times) which is difficult to appreciate and hence the unit called dBm is
+            used which presents the data in a nice logarithmic manner
+        </li>
+        <li>WiFi -95dBm to -35dBm</li>
+        <li>GSM -113dBm to -51dBm</li>
+        <li>CDMA -100dBm to -75dBm</li>
+        <li>EVDO -105dBm to -65dBm</li>
+        <li>LTE -140dBm to -43dBm</li>
+        <li>5G -140dBm to -43dBm</li>
+    </ul>
+
+    <h3>Networks</h3>
+    <ul>
+        <li>2G - GPRS,EDGE,CDMA,IDEN</li>
+        <li>3G - HSPA,HSUPA,HSDPA,EHRPD,1XRTT,EVDO,UMTS,HSPA+</li>
+        <li>4G - LTE</li>
+        <li>5G - New generation radio NR</li>
+    </ul>
+
+    <h3>Technologies</h3>
+    <ul>
+        <li>GSM - Global System for Mobile Communications. 2G GSM network</li>
+        <li>CDMA - Code Division Multiple Access. 2G CDMA network</li>
+        <li>EDGE - Enhanced Data GSM Environment. 2G GSM network</li>
+        <li>HSPA - High Speed Packet Access. 3G GSM network</li>
+        <li>HSUPA - High Speed Uplink Packet Access. 3G GSM network</li>
+        <li>HSDPA - High Speed Downlink Packet Access. 3G GSM network</li>
+        <li>EHRPD - Evolved High Rate Packet Data. 3G CDMA network</li>
+        <li>1xRTT - CDMA Data Mode. 3G CDMA network</li>
+        <li>EVDO - Evolution Data Optimized. 3G CDMA network.</li>
+        <li>UMTS - Universal Mobile Telecommunications System. 3G GSM network</li>
+        <li>HSPA+ - Evolved HSPA. 3G GSM network</li>
+        <li>LTE - Long Term Evolution. 4G network</li>
+        <li>CDMA/EVDO Ec/Io - This is a measure of the quality of your CDMA/EVDO channel. This is
+            more important than the corresponding CDMA/EVDO strength or RSSI channel
+        </li>
+        <li>LTE RSRP - Reference Signal Received Power. This is the main measurement in LTE channels
+            and indicates the average strength of the reference signal
+        </li>
+        <li>LTE RSRQ - Reference Signal Received Quality. This indicates the quality of the LTE
+            signal
+        </li>
+        <li>IWLAN - Mobile offloading. The carrier is using your WiFi to offload cellular
+            functions
+        </li>
+        <li>LTE CA - LTE carrier aggregation</li>
+        <li>LTE Pro - LTE advanced networks utilizing many concepts of 5G networks</li>
+        <li>NR - 5G network. New Radio.</li>
+        <li>NR NSA - NR Non stand alone. Hybrid of 4G and 5G network</li>
+        <li>NR Advanced - NR with high speed milli metric wave networks</li>
+        <li>Note - If you get good strength but poor quality then connection will also be poor.
+            Conversely if you get poor strength but good quality then your connection is likely to
+            still be good
+        </li>
+    </ul>
+
+</section>
+
+</body>
+
+</html>
