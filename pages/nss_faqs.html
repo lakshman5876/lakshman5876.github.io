@@ -23,13 +23,13 @@
     <nav>
         <ul>
             <li><a href="#what-can-do">What can the app do?</a></li>
-            <li><a href="#wifi-issues">WiFi issues</a></li>
-            <li><a href="#cellular-issues">Cellular issues</a></li>
             <li><a href="#purchase-issues">Purchase issues</a></li>
             <li><a href="#widget-issues">Widget issues</a></li>
             <li><a href="#android-permissions">Android permissions</a></li>
             <li><a href="#update-rate">Widget update rate</a></li>
             <li><a href="#dual-sim">Dual SIM related</a></li>
+            <li><a href="#wifi-issues">WiFi issues</a></li>
+            <li><a href="#cellular-issues">Cellular issues</a></li>
             <li><a href="#tech-notes">Tech notes</a></li>
         </ul>
     </nav>
@@ -57,64 +57,15 @@
     </ul>
 
 
-    <!-- Wifi Issues -->
-    <h3 id="wifi-issues">WiFi - Low Signal and Speed<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
-    <ul>
-        <li>
-            <h4>Router placement</h4>
-            <img style="width: 200px;" src="../assets/assistant/router.jpg" alt="Router placement">
-            <p>First use the Signal screen to check your Wifi Signal.
-                Thereafter you can try and change the orientation of the router antenna and see if the signal improves.
-                You can also try and increase the height of router.
-                If its possible, relocate your router to provide optimum coverage all around your spaces,
-                but this may not always be possible because your ISP cabling could be fixed</p>
-        </li>
-        <li>
-            <h4>Transmission power</h4>
-            <img style="width: 500px;" src="../assets/assistant/power.jpg" alt="Transmission power">
-            <p>Adjust transmission power of router.
-                For this you will need to login to your router and check if such an option is available.
-                Most probably you will need to go through the router documents for achieving this</p>
-        </li>
-        <li>
-            <h4>Wifi Channel band - 5GHz and 2.4GHz</h4>
-            <img style="width: 200px;" src="../assets/assistant/channels.jpg" alt="Signal band">
-            <p>5GHz bands are very fast but signal drops rapidly with distance.
-                2.5GHz bands are not as fast but perform better with distance and walls.
-                This setting requires logging on to the router.
-                Experiment with the channels and see if it has an improvement.</p>
-        </li>
-        <li>
-            <h4>Other Options</h4>
-            <img style="width: 300px;" src="../assets/assistant/mesh.jpg" alt="Signal band">
-            <p>If none of the above solve your issue you may need to explore options like Wifi repeaters,
-                additional Wifi access points or Wifi mesh.
-                Wifi mesh would be the costlier option but it would give you a single unified network with seamless handover between nodes.</p>
-        </li>
-    </ul>
-
-
-    <!-- Cellular Issues -->
-    <h3 id="cellular-issues">Cellular 5G Issues<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
-    <p>5G is mostly rolling out in an incremental (NSA - Non stand alone) approach utilizing the existing 4G networks.
-        In this hybrid approach the devices have dual connectivity to both 4G and 5G networks.
-        4G is primary and 5G is secondary network.
-        When secondary is in range device is connected to both 4G and 5G simultaneously.
-        However since this is rolling out stage number of 5G cells will be limited.
-        So 5G connectivity may not be there all the time even though your network is NSA.
-        This app may report 5G connectivity with network as LTE NSA.
-        LTE NSA means 5G cells are not in range or not connected.
-        The device may also be prefering 4G/LTE when Wifi is on.
-        These readings may be at variance with device status bar which may have OEM specific readings.
-        Please help to improve app by giving feedback on this issue.</p>
-
     <h3 id="purchase-issues">Purchase Issues<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
     <p>
         The most common issue few users face is when purchase is charged/completed but premium features are not unlocked.
-        This is mainly because app depends upon play store app to refresh purchases which sometimes gets delayed.
-        This can also happen after a device change or android update</p>
+        App depends upon play store app to sync purchases which sometimes gets delayed.
+        This can also happen after a device change or android update.
+        <b>You dont have to purchase again</b> if this happens.</p>
     <b>Try these steps</b>
     <ul>
+        <li><b>NEW:</b> On premium screen scroll down and click on [Recheck Premium]. This will reset app and exit. Relaunch app to force premium check</li>
         <li>If you can try and wait 24 to 48 hours for play store purchases refresh</li>
         <li>Click recents button and close all apps. Then open play store app once.</li>
         <li>Force stop play store app. Then open play store app once.</li>
@@ -170,6 +121,58 @@
         <li>Some devices do not fully support the Android reporting standard for dual SIM, LTE etc.</li>
         <li>Consider contributing debug report from app menu.</li>
     </ul>
+
+    <!-- Wifi Issues -->
+    <h3 id="wifi-issues">WiFi - Low Signal and Speed<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <ul>
+        <li>
+            <h4>Router placement</h4>
+            <img style="width: 200px;" src="../assets/assistant/router.jpg" alt="Router placement">
+            <p>First use the Signal screen to check your Wifi Signal.
+                Thereafter you can try and change the orientation of the router antenna and see if the signal improves.
+                You can also try and increase the height of router.
+                If its possible, relocate your router to provide optimum coverage all around your spaces,
+                but this may not always be possible because your ISP cabling could be fixed</p>
+        </li>
+        <li>
+            <h4>Transmission power</h4>
+            <img style="width: 500px;" src="../assets/assistant/power.jpg" alt="Transmission power">
+            <p>Adjust transmission power of router.
+                For this you will need to login to your router and check if such an option is available.
+                Most probably you will need to go through the router documents for achieving this</p>
+        </li>
+        <li>
+            <h4>Wifi Channel band - 5GHz and 2.4GHz</h4>
+            <img style="width: 200px;" src="../assets/assistant/channels.jpg" alt="Signal band">
+            <p>5GHz bands are very fast but signal drops rapidly with distance.
+                2.5GHz bands are not as fast but perform better with distance and walls.
+                This setting requires logging on to the router.
+                Experiment with the channels and see if it has an improvement.</p>
+        </li>
+        <li>
+            <h4>Other Options</h4>
+            <img style="width: 300px;" src="../assets/assistant/mesh.jpg" alt="Signal band">
+            <p>If none of the above solve your issue you may need to explore options like Wifi repeaters,
+                additional Wifi access points or Wifi mesh.
+                Wifi mesh would be the costlier option but it would give you a single unified network with seamless handover between nodes.</p>
+        </li>
+    </ul>
+
+
+    <!-- Cellular Issues -->
+    <h3 id="cellular-issues">Cellular 5G Issues<a href="#top" style="margin-left: 10px; font-size: 0.8em;">[top]</a></h3>
+    <p>5G is mostly rolling out in an incremental (NSA - Non stand alone) approach utilizing the existing 4G networks.
+        In this hybrid approach the devices have dual connectivity to both 4G and 5G networks.
+        4G is primary and 5G is secondary network.
+        When secondary is in range device is connected to both 4G and 5G simultaneously.
+        However since this is rolling out stage number of 5G cells will be limited.
+        So 5G connectivity may not be there all the time even though your network is NSA.
+        This app may report 5G connectivity with network as LTE NSA.
+        LTE NSA means 5G cells are not in range or not connected.
+        The device may also be prefering 4G/LTE when Wifi is on.
+        These readings may be at variance with device status bar which may have OEM specific readings.
+        Please help to improve app by giving feedback on this issue.</p>
+
 
     <hr/>
     <h2 id="tech-notes">Tech Notes<a href="#top" style="margin-left: 10px; font-size: 0.6em;">[top]</a>
